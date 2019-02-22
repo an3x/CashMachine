@@ -43,9 +43,7 @@ namespace CashMachine
         private void calcular_Click(object sender, EventArgs e)
         {
             erro.Text = "-";
-            //R$ 100,00, R$ 50,00, R$ 20,00 e R$ 10,00
             int Value = Convert.ToInt32(value.Text);
-            int quantNotas;
             int nota100, nota50, nota20, nota10;
 
 
